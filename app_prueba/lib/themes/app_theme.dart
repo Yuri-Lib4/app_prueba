@@ -7,7 +7,11 @@ class AppTheme {
       primaryColor: primary,
       appBarTheme: const AppBarTheme(color: primary, elevation: 0),
       textButtonTheme: TextButtonThemeData(
-          style: TextButton.styleFrom(foregroundColor: primary)));
+          style: TextButton.styleFrom(foregroundColor: primary)),
+      shadowColor: primary.withOpacity(0.5),
+      floatingActionButtonTheme: const FloatingActionButtonThemeData(
+        backgroundColor: primary )
+  );
 
   static final ThemeData odenfisDark = ThemeData.dark().copyWith(
       scaffoldBackgroundColor: Colors.black,

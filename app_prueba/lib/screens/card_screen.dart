@@ -26,7 +26,11 @@ class CardScreen extends StatelessWidget {
         SizedBox(height: 10,),
         CustomCardType1(),
         SizedBox(height: 10,),
-        CustomCardType2()
+        CustomCardType2(),
+        SizedBox(height: 10,),
+        CustomCardType3(imageURL: 'https://cdn.culturagenial.com/es/imagenes/peliculas-para-ver-en-familia-netflix-og.jpg',),
+         SizedBox(height: 10,),
+        CustomCardType3(imageURL: 'https://cdn.culturagenial.com/es/imagenes/peliculas-para-ver-en-familia-netflix-og.jpg', descripcion: 'nose',)
       ],
       )
     );
